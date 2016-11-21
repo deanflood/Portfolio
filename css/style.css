@@ -1,66 +1,136 @@
-
-.image_header {
-  width: 100%;
-  height: 280px;
-  -webkit-backdrop-filter: blur(2px);
-  backdrop-filter: blur(2px);
-  background-color: rgba(31, 33, 158, 0.75);
+.remove-padding {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0
 }
-
 .profile_bg {
-  width: 375px;
-  height: 620px;
-  background-color: #f9f9f9;
+    width: 375px;
+    height: 620px;
+    background-color: #f9f9f9;
 }
-
-.details_bg{
-	width: 750px;
-  height: 620px;
-  border: black 1px solid;
-
+` .details_bg {
+    height: 620px;
+    border: black 1px solid;
 }
-
 .profile_image {
-	position: absolute;
-	top: 196px;
-	left: 100px;
-	z-index: 10;
+    position: absolute;
+    top: 196px;
+    left: 100px;
+    z-index: 10;
     border-radius: 500px;
-	background-image: linear-gradient(to bottom, #857dd1, #2e3167);
+    background-image: linear-gradient(to bottom, #857dd1, #2e3167);
     padding: 2px;
 }
-
-.personal_details{
-	padding-top: 105px;
+.personal_details {
+    padding-top: 105px;
 }
 .Name {
-  font-family: Roboto;
-  font-size: 30px;
-  font-weight: bold;
-  color: #374355;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+    color: #374355;
 }
-
 .Title {
-  font-family: Roboto;
-  font-size: 18px;
-  color: #54657e;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #54657e;
 }
-
 .Location {
-  font-family: Roboto;
-  font-size: 18px;
-  color: #54657e;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #54657e;
 }
-
+.fa-map-marker:hover {
+    text-decoration: none;
+    color: #db3236;
+}
 .ContactButton {
-  width: 148px;
-  height: 43px;
-  border-radius: 100px;
-  background-color: #0088ff;
+    width: 148px;
+    height: 43px;
+    border-radius: 100px;
+    background-color: #0088ff;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 0px;
+    opacity: 1;
 }
-
-.ContactText {
-  font-family: Roboto;
-  font-size: 18px;
-  color: #ffffff;
+.ContactButton p {
+    margin-bottom: 0px;
+}
+.ContactButton:hover {
+    opacity: 0.75;
+    transition: all 0.3s ease 0s;
+}
+.Line {
+    width: 300px;
+    border: solid 1px #cad3df;
+}
+.fa-linkedin {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #007bb5;
+    border: solid 2px #0077b5;
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+    transition: all 0.5s ease 0s;
+}
+.fa-linkedin:hover {
+    color: #f9f9f9;
+    background-color: #007bb5;
+    text-decoration: none;
+}
+.fa-github {
+    color: #171515;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: solid 2px #171515;
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+    transition: all 0.5s ease 0s;
+}
+.fa-github:hover {
+    color: #f9f9f9;
+    background-color: #171515;
+    text-decoration: none;
+}
+.fa-twitter {
+    color: #4099FF;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: solid 2px #4099FF;
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+    transition: all 0.5s ease 0s;
+}
+.fa-twitter:hover {
+    color: #f9f9f9;
+    background-color: #4099FF;
+    text-decoration: none;
+}
+.fa-envelope {
+    color: #db3236;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: solid 2px #db3236;
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+    transition: all 0.5s ease 0s;
+}
+.fa-envelope:hover {
+    color: #f9f9f9;
+    background-color: #db3236;
+    text-decoration: none;
+}
+.modal-dialog {
+    width: 500px;
 }

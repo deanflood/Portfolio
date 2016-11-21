@@ -1,50 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="icon" href="images/favicon.ico">
-      <title>Dean Flood</title>
-      <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-      <link rel="stylesheet" href="css/style.css">
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	  <meta name="theme-color" content="#857dd1" />
-   </head>
-   <body>
-      <div class="container-fluid">
-         <div class="col-sm-12 image_header">
-         </div>
-		 
-		 <div class="profile_image">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Dean Flood</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="theme-color" content="#857dd1" />
+</head>
+
+<body>
+    <div class="container-fluid remove-padding">
+        <div class="row remove-padding">
+
+            <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+                <img src="images/header_mobile.png" />
+                <!--Mobile-->
+            </div>
+            <div class="hidden-xs col-sm-12 hidden-md hidden-lg">
+                <img src="images/header_image.png" />
+                <!--Tab-->
+            </div>
+            <div class="hidden-xs hidden-sm col-md-12 hidden-lg">
+                <img src="images/header_image.png" />
+                <!--Desktop-->
+            </div>
+            <div class="hidden-xs hidden-sm hidden-md col-lg-12">
+                <img src="images/header_image.png" />
+                <!--Large-->
+            </div>
+        </div>
+
+        <div class="profile_image">
+            <a href="#" class="pop">
                 <img src="https://avatars3.githubusercontent.com/u/8792804" alt="Dean Flood" class="img-circle" style="height:165px;">
-         </div>
-			
-         <div class="row">
+        </div>
+        </a>
+
+        <div class="row remove-padding col-sm-10">
             <div class="col-sm-4 profile_bg">
-               <div class="personal_details text-center">
-                  <p class="Name">Dean Flood</p>
-                  <p class="Title">Full stack Developer</p>
-                  <p class="Location">Dublin, Ireland</p>
-                  <button class="ContactButton" id="myBtn">
-                     <p class="ContactText">Contact</p>
+                <div class="personal_details text-center">
+                    <p class="Name">Dean Flood</p>
+                    <p class="Title">Full stack Developer</p>
+                    <p class="Location">
+                        <a class="fa fa-map-marker" href="http://maps.google.com/?q=Dublin"></a> Dublin, Ireland</p>
+                    <a href="#" class="contactPop">
+                        <button class="ContactButton" id="contactButton">
+                     <p>Contact</p>
                   </button>
-               </div>
+                    </a>
+                    <hr class="Line">
+
+                    <div>
+                        <a class="fa fa-linkedin" href="http://linkedin.com/in/deanflood" target="_blank"></a>
+                        <a class="fa fa-github" href="http://github.com/deanflood" target="_blank"></a>
+                        <a class="fa fa-twitter" href="http://twitter.com/DFloodric" target="_blank"></a>
+                        <a class="fa fa-envelope" href="http://mailto:deanflood1991@gmail.com" target="_blank"></a>
+                    </div>
+                </div>
             </div>
             <div class="col-sm-6 details_bg">
             </div>
-         </div>
-      </div>
-      <div class="col-sm-6">
-         <div id="myModal" class="modal">
+        </div>
+    </div>
+
+
+    <div id="contactModal" class="modal fade">
+        <div class="modal-dialog">
+
             <div class="modal-content">
-               <span class="close glyphicon glyphicon-remove-sign"></span>
-               <script type="text/javascript" src="https://form.jotformeu.com/jsform/63216958199369"></script>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <script type="text/javascript" src="https://form.jotformeu.com/jsform/63216958199369"></script>
             </div>
-         </div>
-      </div>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <script src="js/contactForm.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-   </body>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <img src="" class="imagepreview" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/modelController.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
 </html>
