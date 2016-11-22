@@ -9,18 +9,19 @@
     height: 620px;
     background-color: #f9f9f9;
 }
-` .details_bg {
+.details_bg {
     height: 620px;
     border: black 1px solid;
 }
 .profile_image {
     position: absolute;
-    top: 196px;
+	top: -90px;
     left: 100px;
     z-index: 10;
     border-radius: 500px;
     background-image: linear-gradient(to bottom, #857dd1, #2e3167);
     padding: 2px;
+	cursor: pointer;
 }
 .personal_details {
     padding-top: 105px;
@@ -132,5 +133,11 @@
     text-decoration: none;
 }
 .modal-dialog {
-    width: 500px;
+    width: 510px;
+}
+
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
 }

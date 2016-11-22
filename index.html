@@ -12,11 +12,17 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="theme-color" content="#857dd1" />
+	
+	 <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
 </head>
 
 <body>
     <div class="container-fluid remove-padding">
-        <div class="row remove-padding">
+        <div class="row">
 
             <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
                 <img src="images/header_mobile.png" />
@@ -36,20 +42,19 @@
             </div>
         </div>
 
-        <div class="profile_image">
-            <a href="#" class="pop">
-                <img src="https://avatars3.githubusercontent.com/u/8792804" alt="Dean Flood" class="img-circle" style="height:165px;">
-        </div>
-        </a>
-
-        <div class="row remove-padding col-sm-10">
+        <div class="row col-sm-10 center">
             <div class="col-sm-4 profile_bg">
+			
+			        <div class="profile_image center">
+            <a class="pop">
+                <img src="https://avatars3.githubusercontent.com/u/8792804" alt="Dean Flood" class="img-circle" style="height:165px;"></a>
+        </div>
                 <div class="personal_details text-center">
                     <p class="Name">Dean Flood</p>
                     <p class="Title">Full stack Developer</p>
                     <p class="Location">
-                        <a class="fa fa-map-marker" href="http://maps.google.com/?q=Dublin"></a> Dublin, Ireland</p>
-                    <a href="#" class="contactPop">
+                        <a class="fa fa-map-marker" target="_blank" href="http://maps.google.com/?q=Dublin"></a> Dublin, Ireland</p>
+                    <a class="contactPop">
                         <button class="ContactButton" id="contactButton">
                      <p>Contact</p>
                   </button>
@@ -60,11 +65,45 @@
                         <a class="fa fa-linkedin" href="http://linkedin.com/in/deanflood" target="_blank"></a>
                         <a class="fa fa-github" href="http://github.com/deanflood" target="_blank"></a>
                         <a class="fa fa-twitter" href="http://twitter.com/DFloodric" target="_blank"></a>
-                        <a class="fa fa-envelope" href="http://mailto:deanflood1991@gmail.com" target="_blank"></a>
+                        <a class="fa fa-envelope" href="mailto:deanflood1991@gmail.com" target="_blank"></a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 details_bg">
+
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+    <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+    <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Menu 2</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+  </div>
+</div>
+			
+			
+			
+			
+			
+			
             </div>
         </div>
     </div>
@@ -93,8 +132,11 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/modelController.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>
+
+	
+	</body>
 
 </html>
