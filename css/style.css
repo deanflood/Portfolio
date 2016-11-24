@@ -1,3 +1,14 @@
+body{
+	font-family: Roboto;
+	
+}
+.header{
+  width: 100%;
+  height: 280px;
+
+  background-image: linear-gradient(261deg, #4245cd, #1f219e);
+}
+
 .remove-padding {
     padding-left: 0;
     padding-right: 0;
@@ -11,7 +22,7 @@
 }
 .details_bg {
     height: 620px;
-    border: black 1px solid;
+	bottom: 40px;
 }
 .profile_image {
     position: absolute;
@@ -27,18 +38,15 @@
     padding-top: 105px;
 }
 .Name {
-    font-family: Roboto;
     font-size: 30px;
     font-weight: bold;
     color: #374355;
 }
 .Title {
-    font-family: Roboto;
     font-size: 18px;
     color: #54657e;
 }
 .Location {
-    font-family: Roboto;
     font-size: 18px;
     color: #54657e;
 }
@@ -77,10 +85,11 @@
     height: 30px;
     text-align: center;
     color: #007bb5;
-    border: solid 2px #0077b5;
-    border-radius: 15px;
-    padding: 5px 5px 5px 5px;
+    border: solid 1px #0077b5;
+    border-radius: 30px;
+    padding: 7px 5px 5px 5px;
     transition: all 0.5s ease 0s;
+	margin-right: 10px
 }
 .fa-linkedin:hover {
     color: #f9f9f9;
@@ -92,10 +101,12 @@
     width: 30px;
     height: 30px;
     text-align: center;
-    border: solid 2px #171515;
-    border-radius: 15px;
-    padding: 5px 5px 5px 5px;
+    border: solid 1px #171515;
+    border-radius: 30px;
+    padding: 7px 5px 5px 5px;
     transition: all 0.5s ease 0s;
+    margin-right: 10px
+
 }
 .fa-github:hover {
     color: #f9f9f9;
@@ -107,10 +118,12 @@
     width: 30px;
     height: 30px;
     text-align: center;
-    border: solid 2px #4099FF;
-    border-radius: 15px;
-    padding: 5px 5px 5px 5px;
+    border: solid 1px #4099FF;
+    border-radius: 30px;
+    padding: 7px 5px 5px 5px;
     transition: all 0.5s ease 0s;
+	margin-right: 10px
+
 }
 .fa-twitter:hover {
     color: #f9f9f9;
@@ -122,10 +135,12 @@
     width: 30px;
     height: 30px;
     text-align: center;
-    border: solid 2px #db3236;
-    border-radius: 15px;
-    padding: 5px 5px 5px 5px;
+    border: solid 1px #db3236;
+    border-radius: 30px;
+    padding: 7px 5px 5px 5px;
     transition: all 0.5s ease 0s;
+	margin-right: 10px
+
 }
 .fa-envelope:hover {
     color: #f9f9f9;
@@ -141,3 +156,57 @@
      margin-left: auto;
      margin-right: auto;
 }
+
+.tab-design {
+  float: right;
+  height: 16px;
+  font-size: 14px;
+  text-align: left;
+  height: 60px;
+  
+}
+
+.tab-content{
+	padding-top: 60px;
+	background-color: transparent;
+}
+
+.tab-content h3{
+  width: 67px;
+  height: 28px;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #374355;
+}
+
+.tab-design a{
+	background-color: transparent;
+	color: white;
+}
+
+.nav-tabs > li > a:hover {
+    background-color: transparent;
+	border: none;
+}
+
+.nav-tabs > li > a {
+    background-color: transparent;
+	border: none;
+}
+
+.nav-tabs  {
+	border: none;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	color: white;
+	background-color: transparent;
+	border: none;
+    padding-bottom: 6px;
+	border-bottom: 4px solid #0088ff;
+
+}
+
+	
