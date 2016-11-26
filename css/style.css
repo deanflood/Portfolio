@@ -50,7 +50,7 @@ body{
     font-size: 18px;
     color: #54657e;
 }
-.fa-map-marker:hover {
+.fa-map-marker:hover, .fa-map-marker:active, .fa-map-marker:focus {
     text-decoration: none;
     color: #db3236;
 }
@@ -228,7 +228,15 @@ body{
 }
 
 .skill_table{
+	  font-family: Roboto;
+  font-weight: 300;
 	width: 100%;
+}
+
+.skill_table span{
+	color: #0088ff;
+	float: right;
+	padding-right: 10px;
 }
 
 .tab-content p{
@@ -261,7 +269,7 @@ body{
 #accordion .ui-accordion-header {
   background-color: #ffffff;
   border: none;
-  height: 40px;
+  height: 45px;
   width: 100%;
   font-size: 24px;
   letter-spacing: 0.3px;
@@ -273,6 +281,8 @@ body{
   border: none;
   width: 100%;
   line-height: 16pt;
+  padding-top : 0px;
+  padding-bottom: 0px;
 }
 
 #accordion .ui-icon { display: none; }
@@ -282,7 +292,7 @@ body{
 #result_accordion .ui-accordion-header {
   background-color: #ffffff;
   border: none;
-  height: 40px;
+  height: 45px;
   width: 100%;
   font-size: 24px;
   letter-spacing: 0.3px;
@@ -297,7 +307,9 @@ body{
   line-height: 16pt;
 }
 
-#result_accordion .ui-icon { display: none; }
+#result_accordion .ui-icon { 
+display: none;
+ }
 
 .ui-accordion-header.ui-state-default:before { 
 	content: "\f068";
@@ -310,7 +322,7 @@ body{
 	font-family: FontAwesome;
 }
 
-.job-role{
+.accordion-sub{
  width: 100%;
   height: 21px;
   font-size: 18px;
