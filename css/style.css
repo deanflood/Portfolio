@@ -91,7 +91,7 @@ body{
     transition: all 0.5s ease 0s;
 	margin-right: 10px
 }
-.fa-linkedin:hover {
+.fa-linkedin:hover, .fa-linkedin:active, .fa-linkedin:focus {
     color: #f9f9f9;
     background-color: #007bb5;
     text-decoration: none;
@@ -108,7 +108,7 @@ body{
     margin-right: 10px
 
 }
-.fa-github:hover {
+.fa-github:hover, .fa-github:active, .fa-github:focus {
     color: #f9f9f9;
     background-color: #171515;
     text-decoration: none;
@@ -125,7 +125,7 @@ body{
 	margin-right: 10px
 
 }
-.fa-twitter:hover {
+.fa-twitter:hover, .fa-twitter:active, .fa-twitter:focus {
     color: #f9f9f9;
     background-color: #4099FF;
     text-decoration: none;
@@ -142,7 +142,7 @@ body{
 	margin-right: 10px
 
 }
-.fa-envelope:hover {
+.fa-envelope:hover, .fa-envelope:active, .fa-envelope:focus {
     color: #f9f9f9;
     background-color: #db3236;
     text-decoration: none;
@@ -158,11 +158,13 @@ body{
     transition: all 0.5s ease 0s;
 
 }
-.fa-sticky-note:hover {
+.fa-sticky-note:hover, .fa-sticky-note:active, .fa-sticky-note:focus {
     color: #f9f9f9;
     background-color: #fdbd39;
     text-decoration: none;
 }
+
+
 .modal-dialog {
     width: 510px;
 }
