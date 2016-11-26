@@ -147,6 +147,22 @@ body{
     background-color: #db3236;
     text-decoration: none;
 }
+.fa-sticky-note {
+    color: #fdbd39;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: solid 1px #fdbd39;
+    border-radius: 30px;
+    padding: 7px 5px 5px 5px;
+    transition: all 0.5s ease 0s;
+
+}
+.fa-sticky-note:hover {
+    color: #f9f9f9;
+    background-color: #fdbd39;
+    text-decoration: none;
+}
 .modal-dialog {
     width: 510px;
 }
@@ -254,7 +270,6 @@ body{
 #accordion .ui-accordion-content {
   border: none;
   width: 100%;
-  height: 100%;
   line-height: 16pt;
 }
 
@@ -291,4 +306,14 @@ body{
 .ui-accordion-header.ui-state-active:before { 
 	content: "\f067";
 	font-family: FontAwesome;
+}
+
+.job-role{
+ width: 100%;
+  height: 21px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #374355;
 }
