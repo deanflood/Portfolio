@@ -7,7 +7,9 @@
     <link rel="icon" href="images/favicon.ico">
     <title>Dean Flood</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
@@ -20,237 +22,268 @@
 </head>
 
 <body>
-    <div class="container-fluid header">
-        <div class="row">
-        </div>
-    </div>
+    <div class="container-fluid remove-padding">
+        <div class="row header remove-padding"></div>
 
-    <div class="row">
-	<div class="col-xs-12 col-sm-10 center ">
-        <div class="col-xs-12 col-sm-10 profile_bg">
 
-            <div class="profile_image">
-                <a class="pop">
-                    <img src="https://avatars3.githubusercontent.com/u/8792804" alt="Dean Flood" class="img-circle">
-					</a>
-            </div>
-            <div class="personal_details text-center">
-                <p class="Name">Dean Flood</p>
-                <p class="Title">Full stack Developer</p>
-                <p class="Location">
-                    <a class="fa fa-map-marker" target="_blank" href="http://maps.google.com/?q=Dublin"></a> Dublin, Ireland</p>
-                <a class="contactPop">
-                    <button class="ContactButton" id="contactButton">
+    <div class="row remove-padding">
+        <div class="col-xs-12 col-sm-10 remove_mobile_padding">
+            <div class="col-xs-12 col-sm-4 profile_bg">
+
+                <div class="profile_image">
+                    <a class="pop">
+                        <img src="https://avatars3.githubusercontent.com/u/8792804" alt="Dean Flood"
+                            class="img-circle">
+                    </a>
+                </div>
+                <div class="personal_details text-center">
+                    <p class="Name">Dean Flood</p>
+                    <p class="Title">Full stack Developer</p>
+                    <p class="Location">
+                        <a class="fa fa-map-marker" target="_blank" href="http://maps.google.com/?q=Dublin"></a> Dublin, Ireland</p>
+                    <a class="contactPop">
+                        <button class="ContactButton" id="contactButton">
                      <p>Contact</p>
                   </button>
-                </a>
-                <hr class="detail-line">
+                    </a>
+                    <hr class="detail-line">
 
-                <div class="social_media_icons">
-                    <a class="fa fa-linkedin" href="http://linkedin.com/in/deanflood" target="_blank"></a>
-                    <a class="fa fa-github" href="http://github.com/deanflood" target="_blank"></a>
-                    <a class="fa fa-twitter" href="http://twitter.com/DFloodric" target="_blank"></a>
-                    <a class="fa fa-envelope" href="mailto:deanflood1991@gmail.com" target="_blank"></a>
-                    <a class="fa fa-sticky-note" href="resource/DeanFlood.pdf" target="_blank"></a>
-
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-6 details_bg">
-
-
-            <ul class="nav nav-tabs tab-design">
-                <li class="active"><a data-toggle="tab" href="#summary">SUMMARY</a></li>
-                <li><a data-toggle="tab" href="#experience">EXPERIENCE</a></li>
-                <li><a data-toggle="tab" href="#projects">PROJECTS</a></li>
-                <li><a class="clear-tab" data-toggle="tab" href="#results">RESULTS</a></li>
-            </ul>
-
-            <div class="tab-content">
-                <div id="summary" class="tab-pane fade in active">
-                    <h3>Summary</h3>
-                    <p>
-                        "A problem worthy of attack, proves its worth by fighting back"
-                        <br><br> I am currently a full time student of Computing in the Institute of Technology, Dublin. I am passionate about many aspects of technology. I'm constantly amazed at how technology has changed in such a short time, and it excites me to imagine how it will change going forward. I imagine myself taking part in the future of technology, so I try to surround myself in it as much as possible. This is why I'm currently undertaking a Bachelor of Science in Computing as well as various other programming related projects.
-                    </p>
-                    <hr class="Line">
-                    <h3> Skill Set </h3>
-                    <div class="skill_table table-responsive">
-                        <table style="width:100%">
-
-                            <tr>
-
-                                <td>JAVA </td>
-
-                                <td>GIT & GITHUB</td>
-
-                                <td>SQL</td>
-                                <td>HTML & CSS</td>
-                            </tr>
-                            <tr>
-                                <td>C#</td>
-                                <td>Smith</td>
-                                <td>REST API</td>
-                                <td>UNIX COMMAND LINE</td>
-                            </tr>
-                            <tr>
-                                <td>C++</td>
-                                <td>Jackson</td>
-                                <td>JSON & XML</td>
-                                <td>WINDOWS CMD</td>
-                            </tr>
-                        </table>
-
-                    </div>
-
-                    <hr class="Line">
-                    <h3>Eductation</h3>
-                    <p>Institute of Technology, Tallaght 2013-2017</p>
-
-                </div>
-                <div id="experience" class="tab-pane fade">
-                    <h3>Experience</h3>
-                    <div id="accordion">
-
-                        <h3 id="default_header"> IBM</h3>
-                        <div>
-                            <h4 class="accordion-sub">Technical Intern</h4>
-                            <p>Present</p>
-                            <p>
-                                Currently undertaking my 4 th Year project in conjunction with IBM. This entails visiting their campus bimonthly and working with an IBM Mentor to complete a project specified by them. Project is based on using IBM’s Watson to introduce machine learning into messaging services.
-                            </p>
-                        </div>
-
-                        <h3 id="accordion_header"> Groupon</h3>
-                        <div>
-                            <h4 class="accordion-sub">Technical Intern</h4>
-                            <p>January 2016 – July 2016 </p>
-                            <p>
-                                Worked as part of a team implementing features across various applications for Groupons’ affiliate marketing program. Worked with web technologies & frameworks including Play Framework & The Spring Framework. Designed and implemented REST APIs as part of a major feature release within the team I was based. Took part in QA & testing, both manually and using frameworks such as Robot Framework & Cucumber.
-                            </p>
-                        </div>
-
-                        <h3 id=""> Paddy Power</h3>
-                        <div>
-                            <h4 class="accordion-sub">Social Media Specialist</h4>
-                            <p>June 2014-October 2016 </p>
-                            <p>
-                                Communicating with customers Social Media on the official Paddy Power Facebook and Twitter accounts. Dealing with technical and customer concerns. Operating on a public front meant that great care and excellent customer support was required at all times.
-                            </p>
-
-                        </div>
-
-                    </div>
-                </div>
-                <div id="projects" class="tab-pane fade">
-                    <h3>Projects</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                </div>
-                <div id="results" class="tab-pane fade">
-                    <h3>Results</h3>
-                    <div id="result_accordion">
-
-                        <h3 id="default_result_header"> Third Year</h3>
-                        <div>
-                            <h4 class="accordion-sub">GPA: 3.86 / 4.00</h4>
-                            <div class="skill_table table-responsive">
-                                <table style="width:100%">
-                                    <tr>
-                                        <td style="width:50%">Work Placement<span>Pass</span> </td>
-                                        <td>Project<span>A&nbsp;&nbsp;</span></td>
-									</tr>
-									<tr>
-										<td>Advanced Databases<span>A&nbsp;&nbsp;</span></td>
-                                        <td>Cloud Services<span>B+</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Innovation<span>B+</span></td>
-                                        <td>Operation Systems<span>A&nbsp;&nbsp;</span></td>
-									</tr>
-									<tr>
-										<td>Web Design 2<span>A&nbsp;&nbsp;</span></td>
-                                        <td>Algorithms and Data Structures<span>A&nbsp;&nbsp;</span></td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-
-                        <h3 id="accordion_header"> Second Year</h3>
-                        <div>
-                            <h4 class="accordion-sub">GPA: 4.00 / 4.00</h4>
-                            <div class="skill_table table-responsive">
-                                <table style="width:100%">
-                                    <tr>
-                                        <td style="width:50%">Information Security<span>A</span> </td>
-                                        <td>Analysis & Design<span>A</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Management Science<span>A</span></td>
-                                        <td>Networking 1<span>A</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Networking 2<span>A</span></td>
-                                        <td>Software Quality <span>A</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Project<span>A</span></td>
-                                        <td>Web Design<span>A</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Discrete Maths 2<span>A</span></td>
-                                        <td>Database 2<span>A</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Software Development 3<span>A</span></td>
-                                        <td>Software Development 4 <span>A</span></td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-
-                        <h3 id="accordion_header"> First Year</h3>
-                        <div>
-                            <h4 class="accordion-sub">GPA: 3.88 / 4.00</h4>
-
-                            <div class="skill_table table-responsive">
-                                <table style="width:100%">
-
-                                    <tr>
-                                        <td style="width:50%">Operating Systems<span>A&nbsp;&nbsp;</span> </td>
-                                        <td>Database Fundamentals<span>A</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Statistics<span>A&nbsp;&nbsp;</span></td>
-                                        <td>System Analysis<span>A</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Software Development 1<span>A&nbsp;&nbsp;</span></td>
-                                        <td>Software Development 2<span>A</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Discrete Maths<span>A&nbsp;&nbsp;</span></td>
-                                        <td>Business Systems<span>A</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Interface and Design<span>B+</span></td>
-                                        <td>Social Media<span>A</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Learning to Learn <span>B&nbsp;&nbsp;</span></td>
-                                        <td>Computer Architecture <span>A</span></td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
+                    <div class="social_media_icons">
+                        <a class="fa fa-linkedin" href="http://linkedin.com/in/deanflood" target="_blank"></a>
+                        <a class="fa fa-github" href="http://github.com/deanflood" target="_blank"></a>
+                        <a class="fa fa-twitter" href="http://twitter.com/DFloodric" target="_blank"></a>
+                        <a class="fa fa-envelope" href="mailto:deanflood1991@gmail.com" target="_blank"></a>
+                        <a class="fa fa-sticky-note" href="resource/DeanFlood.pdf" target="_blank"></a>
 
                     </div>
                 </div>
             </div>
+            <div class="col-xs-6 details_bg">
+
+
+                <ul class="nav nav-tabs tab-design">
+                    <li class="active"><a data-toggle="tab" href="#summary">SUMMARY</a></li>
+                    <li><a data-toggle="tab" href="#experience">EXPERIENCE</a></li>
+                    <li><a data-toggle="tab" href="#projects">PROJECTS</a></li>
+                    <li><a class="clear-tab" data-toggle="tab" href="#results">RESULTS</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="summary" class="tab-pane fade in active">
+                        <h3>Summary</h3>
+                        <p>
+                            "A problem worthy of attack, proves its worth by fighting back"
+                            <br><br> I am currently a full time student
+                            of Computing in the Institute of Technology,
+                            Dublin. I am passionate about many aspects
+                            of technology. I'm constantly amazed at how
+                            technology has changed in such a short time,
+                            and it excites me to imagine how it will change
+                            going forward. I imagine myself taking part
+                            in the future of technology, so I try to surround
+                            myself in it as much as possible. This is why
+                            I'm currently undertaking a Bachelor of Science
+                            in Computing as well as various other programming
+                            related projects.
+                        </p>
+                        <hr class="Line">
+                        <h3> Skill Set </h3>
+                        <div class="skill_table table-responsive">
+                            <table style="width:100%">
+
+                                <tr>
+
+                                    <td>JAVA </td>
+
+                                    <td>GIT & GITHUB</td>
+
+                                    <td>SQL</td>
+                                    <td>HTML & CSS</td>
+                                </tr>
+                                <tr>
+                                    <td>C#</td>
+                                    <td>Smith</td>
+                                    <td>REST API</td>
+                                    <td>UNIX COMMAND LINE</td>
+                                </tr>
+                                <tr>
+                                    <td>C++</td>
+                                    <td>Jackson</td>
+                                    <td>JSON & XML</td>
+                                    <td>WINDOWS CMD</td>
+                                </tr>
+                            </table>
+
+                        </div>
+
+                        <hr class="Line">
+                        <h3>Eductation</h3>
+                        <p>Institute of Technology, Tallaght 2013-2017</p>
+
+                    </div>
+                    <div id="experience" class="tab-pane fade">
+                        <h3>Experience</h3>
+                        <div id="accordion">
+
+                            <h3 id="default_header"> IBM</h3>
+                            <div>
+                                <h4 class="accordion-sub">Technical Intern</h4>
+                                <p>Present</p>
+                                <p>
+                                    Currently undertaking my 4 th Year project in conjunction with IBM. This
+                                    entails visiting their campus bimonthly
+                                    and working with an IBM Mentor to complete
+                                    a project specified by them. Project
+                                    is based on using IBM’s Watson to introduce
+                                    machine learning into messaging services.
+                                </p>
+                            </div>
+
+                            <h3 id="accordion_header"> Groupon</h3>
+                            <div>
+                                <h4 class="accordion-sub">Technical Intern</h4>
+                                <p>January 2016 – July 2016 </p>
+                                <p>
+                                    Worked as part of a team implementing features across various applications
+                                    for Groupons’ affiliate marketing program.
+                                    Worked with web technologies & frameworks
+                                    including Play Framework & The Spring
+                                    Framework. Designed and implemented
+                                    REST APIs as part of a major feature
+                                    release within the team I was based.
+                                    Took part in QA & testing, both manually
+                                    and using frameworks such as Robot
+                                    Framework & Cucumber.
+                                </p>
+                            </div>
+
+                            <h3 id=""> Paddy Power</h3>
+                            <div>
+                                <h4 class="accordion-sub">Social Media Specialist</h4>
+                                <p>June 2014-October 2016 </p>
+                                <p>
+                                    Communicating with customers Social Media on the official Paddy Power Facebook
+                                    and Twitter accounts. Dealing with
+                                    technical and customer concerns. Operating
+                                    on a public front meant that great
+                                    care and excellent customer support
+                                    was required at all times.
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="projects" class="tab-pane fade">
+                        <h3>Projects</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error
+                            sit voluptatem accusantium doloremque laudantium,
+                            totam rem aperiam.</p>
+                    </div>
+                    <div id="results" class="tab-pane fade">
+                        <h3>Results</h3>
+                        <div id="result_accordion">
+
+                            <h3 id="default_result_header"> Third Year</h3>
+                            <div>
+                                <h4 class="accordion-sub">GPA: 3.86 / 4.00</h4>
+                                <div class="skill_table table-responsive">
+                                    <table style="width:100%">
+                                        <tr>
+                                            <td style="width:50%">Work Placement<span>Pass</span>                                                </td>
+                                            <td>Project<span>A&nbsp;&nbsp;</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Advanced Databases<span>A&nbsp;&nbsp;</span></td>
+                                            <td>Cloud Services<span>B+</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Innovation<span>B+</span></td>
+                                            <td>Operation Systems<span>A&nbsp;&nbsp;</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Web Design 2<span>A&nbsp;&nbsp;</span></td>
+                                            <td>Algorithms and Data Structures<span>A&nbsp;&nbsp;</span></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <h3 id="accordion_header"> Second Year</h3>
+                            <div>
+                                <h4 class="accordion-sub">GPA: 4.00 / 4.00</h4>
+                                <div class="skill_table table-responsive">
+                                    <table style="width:100%">
+                                        <tr>
+                                            <td style="width:50%">Information Security<span>A</span>                                                </td>
+                                            <td>Analysis & Design<span>A</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Management Science<span>A</span></td>
+                                            <td>Networking 1<span>A</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Networking 2<span>A</span></td>
+                                            <td>Software Quality <span>A</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Project<span>A</span></td>
+                                            <td>Web Design<span>A</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Discrete Maths 2<span>A</span></td>
+                                            <td>Database 2<span>A</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Software Development 3<span>A</span></td>
+                                            <td>Software Development 4 <span>A</span></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <h3 id="accordion_header"> First Year</h3>
+                            <div>
+                                <h4 class="accordion-sub">GPA: 3.88 / 4.00</h4>
+
+                                <div class="skill_table table-responsive">
+                                    <table style="width:100%">
+
+                                        <tr>
+                                            <td style="width:50%">Operating Systems<span>A&nbsp;&nbsp;</span>                                                </td>
+                                            <td>Database Fundamentals<span>A</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Statistics<span>A&nbsp;&nbsp;</span></td>
+                                            <td>System Analysis<span>A</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Software Development 1<span>A&nbsp;&nbsp;</span></td>
+                                            <td>Software Development 2<span>A</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Discrete Maths<span>A&nbsp;&nbsp;</span></td>
+                                            <td>Business Systems<span>A</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Interface and Design<span>B+</span></td>
+                                            <td>Social Media<span>A</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Learning to Learn <span>B&nbsp;&nbsp;</span></td>
+                                            <td>Computer Architecture <span>A</span></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     </div>
-    </div>
-	</div>
 
 
     <div id="contactModal" class="modal fade">
@@ -264,7 +297,8 @@
     </div>
 
 
-    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body">
@@ -281,7 +315,9 @@
     <script src="js/tabs.js"></script>
     <script src="js/accordion.js"></script>
     <script src="js/resultAccordion.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
     <script>
         jQuery(function() {
             jQuery('#default_header').click();
