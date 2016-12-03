@@ -1,8 +1,9 @@
 html, body {
     font-family: Roboto !important;
 	width: 100%;
-
+    -webkit-text-size-adjust: none;
 }
+
 .header {
     width: 100%;
     height: 280px;
