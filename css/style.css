@@ -544,8 +544,7 @@ html, body {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:focus,
 .nav-tabs > li.active > a:hover
-
- {
+{
     color: #374355;
 	font-weight: bold;
     background-color: transparent;
@@ -557,7 +556,14 @@ html, body {
 	margin-left: 0px !important;
 
 }
+.skill_table{
+	border: none;
+}
+td{
+	display:block;
+	width:100% !important;
 
+}
 
 
 }
