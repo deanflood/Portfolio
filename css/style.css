@@ -1,6 +1,6 @@
 html, body {
     font-family: Roboto !important;
-	    width: 100%;
+	width: 100%;
 
 }
 .header {
@@ -201,15 +201,23 @@ html, body {
 .tab-content {
     padding-top: 60px;
     background-color: transparent;
+
+}
+
+#summary p {
+	text-align: justify;
+
 }
 .tab-content h3 {
     width: 100px;
     height: 28px;
     font-size: 24px;
     font-weight: bold;
-    letter-spacing: 0.3px;
     text-align: left;
     color: #374355;
+    line-height: 1.29;
+    letter-spacing: 0.2px;
+
 }
 .tab-design a {
     background-color: transparent;
@@ -254,14 +262,7 @@ html, body {
     text-align: left;
     color: #374355;
 }
-.tab-content h3 {
-    font-family: Roboto;
-    font-weight: 300;
-    line-height: 1.29;
-    letter-spacing: 0.2px;
-    text-align: left;
-    color: #374355;
-}
+
 .accordion h3 {
     width: 100%;
     height: 50px;
@@ -342,6 +343,10 @@ html, body {
 
 }
 @media(max-width:767px) {
+	body{
+		min-width: 370px;
+	}
+	
     .header {
         height: 0px;
     }
@@ -490,10 +495,8 @@ html, body {
     text-decoration: none;
 }
 
-
-
 .details_bg{
-	top: 20px;
+	top: 0px;
 }
 
 .modal-dialog {
@@ -512,5 +515,49 @@ html, body {
     padding-right: 0px;
     padding-left: 0px;
 }
+
+.tab-design{
+	width: 100%;
+	min-width: 370px;
+	background-color: #f9f9f9;
+	font-size: 14px;
+	color: #374355;
+	height: 50px;
+	border-bottom: #cad3df 1px solid;
+	padding-top: 10px;
+}
+.tab-design a {
+    background-color: transparent;
+    color: #374355;
+	padding-right: 10px !important;
+	padding-left: 10px !important;
+	margin-right: 00px !important;
+	margin-left: 0px !important;
+}
+
+.tab-content{
+	width: 100%;
+	padding: 50px 15px 0px 15px;
+
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover
+
+ {
+    color: #374355;
+	font-weight: bold;
+    background-color: transparent;
+    padding-bottom: 6px;
+    border-bottom: 3px solid #0088ff;
+	padding-right: 10px !important;
+	padding-left: 10px !important;
+	margin-right: 00px !important;
+	margin-left: 0px !important;
+
+}
+
+
 
 }
