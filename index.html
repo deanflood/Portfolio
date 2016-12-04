@@ -26,7 +26,7 @@
         <div class="row header remove-padding"></div>
 
 
-    <div class="row remove-padding remove_mobile_padding">
+        <div class="row remove-padding remove_mobile_padding">
             <div class="col-xs-12 col-sm-4 profile_bg">
 
                 <div class="profile_image">
@@ -173,10 +173,90 @@
                         </div>
                     </div>
                     <div id="projects" class="tab-pane fade">
-                        <h3>Projects</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error
-                            sit voluptatem accusantium doloremque laudantium,
-                            totam rem aperiam.</p>
+
+                        <div class="slideshow">
+                            <h3>Projects</h3>
+                            <div class="mySlides animate-right" style="width:100%">
+                                <div class="content">
+                                    <h4>Cognitive Workspace - IBM</h4>
+
+                                    <p>
+                                        Currently undertaking my 4th Year project in conjunction with IBM. This
+                                        entails visiting their campus bimonthly
+                                        and working with an IBM Mentor
+                                        to complete a project specified
+                                        by them. Project is based on using
+                                        IBM’s Watson to introduce machine
+                                        learning into messaging services.
+                                        Developed using Spring framework,
+                                        the application can retrieve metadata
+                                        from IBM Watson endpoints and display
+                                        them to the user via Workspace,
+                                        an internal messaging service.
+                                    </p>
+                                    <img class="slideshow-image" src="images/watsonscreen.png" />
+                                </div>
+                            </div>
+
+                            <div class="mySlides animate-right" style="width:100%">
+                                <div class="content">
+                                    <h4>Dealplans - Groupon</h4>
+
+                                    <p>
+                                        Designed and implemented various endpoints in Java using The Spring Framework
+                                        while working at Groupon International.
+                                        Experience handling large data
+                                        sets in an efficient manner and
+                                        ensuring my work was to specification
+                                        within an Agile environment. Released
+                                        the feature set to production a
+                                        week early and has since been used
+                                        to track thousands of sales. As
+                                        part of this project I was also
+                                        writing test suites for code using
+                                        Cucumber & Robot Framework, as
+                                        well as taking part in manual testing
+                                        for the user interface.
+                                    </p>
+                                    <img class="slideshow-image" src="images/grouponscreen.png" />
+                                </div>
+                            </div>
+
+                            <div class="mySlides animate-right" style="width:100%">
+                                <div class="content">
+                                    <h4>GamesDirect - ITT Dublin</h4>
+                                    <p>
+                                        Undertook an extensive group project as part of second year, using Play
+                                        Framework, an MVC Architecture
+                                        for developing Web Applications.
+                                        We were the first and only group
+                                        to not use Java Swing. Using a
+                                        combination of Scala, Java, HTML
+                                        and JavaScript, we developed a
+                                        fully working application. Features
+                                        included an Oracle SQL database,
+                                        authentication and authorisation/session
+                                        management using Cookies. As part
+                                        of the project I learned project
+                                        management skills, application
+                                        design skills, version control,
+                                        testing, input validation, among
+                                        others skills.
+                                    </p>
+                                    <img class="slideshow-image" src="images/gamesdirectscreen.png" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="center">
+                            <div class="section">
+                                <button class="slide-control prev-next" onclick="plusDivs(-1)">❮ Prev</button>
+                                <button class="slide-control prev-next" onclick="plusDivs(1)">Next ❯</button>
+                            </div>
+                            <button class="slide-control nums" onclick="currentDiv(1)">1</button>
+                            <button class="slide-control nums" onclick="currentDiv(2)">2</button>
+                            <button class="slide-control nums" onclick="currentDiv(3)">3</button>
+                        </div>
                     </div>
                     <div id="results" class="tab-pane fade">
                         <h3>Results</h3>
@@ -249,27 +329,27 @@
 
                                         <tr>
                                             <td style="width:50%">Operating Systems<span>A&nbsp;&nbsp;</span>                                                </td>
-                                            <td>Database Fundamentals<span>A</span></td>
+                                            <td>Database Fundamentals<span>A&nbsp;&nbsp;</span></td>
                                         </tr>
                                         <tr>
                                             <td>Statistics<span>A&nbsp;&nbsp;</span></td>
-                                            <td>System Analysis<span>A</span></td>
+                                            <td>System Analysis<span>A&nbsp;&nbsp;</span></td>
                                         </tr>
                                         <tr>
                                             <td>Software Development 1<span>A&nbsp;&nbsp;</span></td>
-                                            <td>Software Development 2<span>A</span></td>
+                                            <td>Software Development 2<span>A&nbsp;&nbsp;</span></td>
                                         </tr>
                                         <tr>
                                             <td>Discrete Maths<span>A&nbsp;&nbsp;</span></td>
-                                            <td>Business Systems<span>A</span></td>
+                                            <td>Business Systems<span>A&nbsp;&nbsp;</span></td>
                                         </tr>
                                         <tr>
                                             <td>Interface and Design<span>B+</span></td>
-                                            <td>Social Media<span>A</span></td>
+                                            <td>Social Media<span>A&nbsp;&nbsp;</span></td>
                                         </tr>
                                         <tr>
                                             <td>Learning to Learn <span>B&nbsp;&nbsp;</span></td>
-                                            <td>Computer Architecture <span>A</span></td>
+                                            <td>Computer Architecture <span>A&nbsp;&nbsp;</span></td>
                                         </tr>
                                     </table>
                                 </div>
@@ -279,7 +359,7 @@
                     </div>
                 </div>
             </div>
-    </div>
+        </div>
     </div>
 
 
@@ -312,6 +392,7 @@
     <script src="js/tabs.js"></script>
     <script src="js/accordion.js"></script>
     <script src="js/resultAccordion.js"></script>
+    <script src="js/slideshow.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
