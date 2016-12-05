@@ -333,7 +333,7 @@ h4 {
     color: #374355;
 }
 .fa-times {
-    color: #db3236;
+    color: #7a7a7a;
     padding: 5px 5px 5px 5px;
     cursor: pointer;
 }
@@ -368,8 +368,12 @@ h4 {
 }
 .animate-right {
     position: relative;
-    -webkit-animation: animateright 0.4s;
-    animation: animateright 0.4s
+            animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 .center {
     text-align: center!important
@@ -600,4 +604,8 @@ h4 {
     #accordion .ui-accordion-header {
         padding-left: 0px;
     }
+	
+	#result_accordion .ui-accordion-header {
+    padding-left: 0px;
+}
 }
