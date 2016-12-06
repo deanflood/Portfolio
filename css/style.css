@@ -355,15 +355,22 @@ h4 {
 }
 .slide-control {
     border-radius: 5px;
-    background-color: #0088ff;
+    background-color: #5f6977;
     color: #ffffff;
     opacity: 0.50;
     border: none;
     margin-right: 10px;
 }
+
+.slide-control:hover{
+    background-color: #8c949e;
+}
+.slide-control:focus{
+	outline:0;
+}
+
 .prev-next {
     opacity: 1 !important;
-    margin-bottom: 10px;
 }
 .slide-control-active {
     opacity: 1;
@@ -416,6 +423,7 @@ h4 {
     margin: auto;
     width: 80%;
     border-radius: 10px;
+	padding-bottom: 50px;
 }
 @media(max-width:1080px){
 	td {
@@ -532,6 +540,17 @@ h4 {
         border: solid 1px #ffffff;
         border-radius: 30px;
         padding: 4px 4px 4px 4px;
+        transition: all 0.5s ease 0s;
+        margin-right: 10px
+    }
+	
+	.cv {
+		
+        text-align: center;
+        color: #ffffff;
+        border: solid 1px #ffffff;
+        border-radius: 30px;
+        padding: 3px 3px 3px 3px;
         transition: all 0.5s ease 0s;
         margin-right: 10px
     }
