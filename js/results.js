@@ -1,50 +1,120 @@
-var education = angular.module("education", []);
+var results = angular.module("results", []);
 
-    education.controller("educationController", 
-		function educationController($scope) {
-			// Array of my subjects and results added
-			$scope.education = {
-thirdYear: [
-{
-id: 1,
-subject: "Work Placement",
-grade: "Pass"
-},
-{
-id: 2,
-subject: "Project",
-grade: "A"
-},
-{
-id: 3,
-subject: "Advanced Databases",
-grade: "A"
-},
-{
-id: 4,
-subject: "Cloud Services",
-grade: "B+"
-},
-{
-id: 5,
-subject: "Innovation",
-grade: "B+"
-},
-{
-id: 6,
-subject: "Operation Systems",
-grade: "A"
-},
-{
-id: 7,
-subject: "Web Design 2",
-grade: "A"
-},
-{
-id: 8,
-subject: "Algorithms and Data Structures",
-grade: "A"
-					}
-				]
-			};
+results.controller("resultsController",
+    function educationController($scope) {
+        // Array of my subjectNames and results added
+        $scope.result = {
+
+            thirdYear: {
+                gpa: "3.86",
+                resultList: [{
+                    subjectName: "Work Placement",
+                    grade: "Pass"
+                }, {
+                    subjectName: "Project",
+                    grade: "A"
+                }, {
+                    subjectName: "Advanced Databases",
+                    grade: "A"
+                }, {
+                    subjectName: "Cloud Services",
+                    grade: "B+"
+                }, {
+                    subjectName: "Innovation",
+                    grade: "B+"
+                }, {
+                    subjectName: "Operation Systems",
+                    grade: "A"
+                }, {
+                    subjectName: "Web Design 2",
+                    grade: "A"
+                }, {
+                    subjectName: "Algorithms and Data Structures",
+                    grade: "A"
+                }]
+            },
+
+            secondYear: {
+                gpa: "4.00",
+                resultList: [{
+                    subjectName: "Information Security",
+                    grade: "A"
+                }, {
+                    subjectName: "Analysis & Design",
+                    grade: "A"
+                }, {
+                    subjectName: "Management Science",
+                    grade: "A"
+                }, {
+                    subjectName: "Networking 1",
+                    grade: "A"
+                }, {
+                    subjectName: "Networking 2",
+                    grade: "A"
+                }, {
+                    subjectName: "Software Quality",
+                    grade: "A"
+                }, {
+                    subjectName: "Project",
+                    grade: "A"
+                }, {
+                    subjectName: "Web Design",
+                    grade: "A"
+                }, {
+                    subjectName: "Discrete Maths 2",
+                    grade: "A"
+                }, {
+                    subjectName: "Database 2",
+                    grade: "A"
+                }, {
+                    subjectName: "Software Devlopment 3",
+                    grade: "A"
+                }, {
+                    subjectName: "Software Development 4",
+                    grade: "A"
+                }]
+            },
+
+            firstYear: {
+                gpa: "3.86",
+                resultList: [{
+                    subjectName: "Operating Systems",
+                    grade: "A"
+                }, {
+                    subjectName: "Database Fundamentals",
+                    grade: "A"
+                }, {
+                    subjectName: "Statistics",
+                    grade: "A"
+                }, {
+                    subjectName: "System Analysis",
+                    grade: "A"
+                }, {
+                    subjectName: "Software Development 1",
+                    grade: "A"
+                }, {
+                    subjectName: "Software Development 2",
+                    grade: "A"
+                }, {
+                    subjectName: "Discrete Maths",
+                    grade: "A"
+                }, {
+                    subjectName: "Business Systems",
+                    grade: "A"
+                }, {
+                    subjectName: "Interface Design",
+                    grade: "B+"
+                }, {
+                    subjectName: "Social Media",
+                    grade: "A"
+                }, {
+                    subjectName: "Learning to Learn",
+                    grade: "B"
+                }, {
+                    subjectName: "Computer Architecture",
+                    grade: "A"
+                }]
+
+            }
+        }
     });

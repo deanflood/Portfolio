@@ -193,6 +193,7 @@ h4 {
     background-color: #fdbd39;
     text-decoration: none;
 }
+
 .modal-dialog {
     width: 510px;
 }
@@ -217,7 +218,6 @@ h4 {
     text-align: justify;
 }
 .tab-content h3 {
-    width: 100px;
     height: 28px;
     font-size: 24px;
     font-weight: bold;
