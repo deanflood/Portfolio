@@ -185,7 +185,7 @@
 						
                             <div class="mySlides animate-right" style="width:100%">
                                 <div class="content">
-                                    <h4>Cognitive Workspace - IBM</h4>
+                                    <h4>4th Year Project - Cognitive Workspace with IBM</h4>
                                     <img class="slideshow-image" src="images/watsonscreen.png" />
 
                                     <p>
@@ -207,7 +207,7 @@
 
                             <div class="mySlides animate-right" style="width:100%">
                                 <div class="content">
-                                    <h4>Dealplans - Groupon</h4>
+                                    <h4>3rd Year Project - Dealplans with Groupon</h4>
                                     <img class="slideshow-image" src="images/grouponscreen.png" />
 
                                     <p>
@@ -231,7 +231,7 @@
 
                             <div class="mySlides animate-right" style="width:100%">
                                 <div class="content">
-                                    <h4>GamesDirect - ITT Dublin</h4>
+                                    <h4>2nd Year Project - GamesDirect, ITT Dublin</h4>
 									<img class="slideshow-image" src="images/gamesdirectscreen.png" />
 
                                     <p>
@@ -258,7 +258,7 @@
 
 
                     </div>
-                    <div id="results" class="tab-pane fade">
+                    <div id="results" class="tab-pane fade" ng-app="education" ng-controller="educationController">
                         <h3>Results</h3>
                         <div id="result_accordion">
 
@@ -267,22 +267,15 @@
                                 <h4 class="accordion-sub">GPA: 3.86 / 4.00</h4>
                                 <div class="skill_table table-responsive">
                                     <table style="width:100%">
-                                        <tr>
-                                            <td style="width:50%">Work Placement<span>Pass</span>                                                </td>
-                                            <td>Project<span>A&nbsp;&nbsp;</span></td>
+									
+									
+									<tbody >
+
+									
+                                        <tr ng-repeat="ty in education.thirdYear">
+                                            <td>{{ty.subject}}<span>{{ty.grade}}</span></td>
                                         </tr>
-                                        <tr>
-                                            <td>Advanced Databases<span>A&nbsp;&nbsp;</span></td>
-                                            <td>Cloud Services<span>B+</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Innovation<span>B+</span></td>
-                                            <td>Operation Systems<span>A&nbsp;&nbsp;</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Web Design 2<span>A&nbsp;&nbsp;</span></td>
-                                            <td>Algorithms and Data Structures<span>A&nbsp;&nbsp;</span></td>
-                                        </tr>
+										</tbody>
                                     </table>
                                 </div>
                             </div>
@@ -385,13 +378,14 @@
             </div>
         </div>
     </div>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"> </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/modelController.js"></script>
     <script src="js/tabs.js"></script>
     <script src="js/accordion.js"></script>
     <script src="js/resultAccordion.js"></script>
+    <script src="js/results.js"></script>
     <script src="js/slideshow.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
