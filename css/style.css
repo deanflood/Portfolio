@@ -14,6 +14,7 @@ h4 {
     text-align: left;
     color: #374355;
 }
+
 .header {
 	
     width: 100%;
@@ -285,11 +286,16 @@ h4 {
     color: #0088ff;
 }
 #accordion .ui-accordion-content {
+
     border: none;
     width: 100%;
     line-height: 16pt;
     padding-top: 0px;
     padding-bottom: 0px;
+}
+
+.justify-text{
+	text-align: justify !important;
 }
 #accordion .ui-icon {
     display: none;
