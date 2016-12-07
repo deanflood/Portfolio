@@ -128,5 +128,4 @@ skills.controller("skillsController",
 	
 	});
 	
-angular.bootstrap(document.getElementById("skillTable"), ['skillset']);
 angular.bootstrap(document.getElementById("results"), ['results']);
