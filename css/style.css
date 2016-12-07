@@ -35,8 +35,9 @@ h4 {
     bottom: 40px;
 
 }
-.main_content {
-	
+.experience-logo{
+	width: 90%;
+	filter: grayscale(100%);
 }
 .profile_image {
     position: absolute;
@@ -454,7 +455,7 @@ position: absolute;
 }
 
 
-@media(max-width:770px) {
+@media(max-width:765px) {
     body {
         min-width: 370px;
     }
